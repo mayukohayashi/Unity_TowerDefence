@@ -1,23 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1367809586263315563
+--- !u!1001 &8428644702888154296
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1386581982817090376, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 6842584044724275946, guid: 0eaf0955d0035664c87a3d4177a41887, type: 3}
     - target: {fileID: 2457728268248801244, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
+      objectReference: {fileID: -2432090755550338912, guid: e618ab8e55a3ed942a408f4d1b7f896e, type: 3}
     - target: {fileID: 4292028484970650137, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_Name
-      value: Tile_RoadStraight
+      value: Tile_RoadCorer
       objectReference: {fileID: 0}
     - target: {fileID: 4292028484970650138, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_RootOrder
