@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
     - target: {fileID: 4292028484970650137, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_Name
-      value: Tile_RoadStraight
+      value: Tile_RoadCorner
       objectReference: {fileID: 0}
     - target: {fileID: 4292028484970650138, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_RootOrder
@@ -61,6 +61,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4292028484970650138, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788442541273926114, guid: 87bd62916fd474334828a677cfd7af6b, type: 3}
+      propertyPath: isPlaceable
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
