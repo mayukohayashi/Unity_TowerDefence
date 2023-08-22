@@ -92,8 +92,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8998100626500397230}
-  - component: {fileID: 765536057908959904}
   - component: {fileID: 8575497949010478248}
+  - component: {fileID: 765536057908959904}
+  - component: {fileID: 6644232551082738471}
   m_Layer: 0
   m_Name: Enemy_Ram
   m_TagString: Untagged
@@ -117,6 +118,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8575497949010478248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616648825218986516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4, z: 4}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!114 &765536057908959904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,16 +145,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: []
   speed: 1
---- !u!65 &8575497949010478248
-BoxCollider:
+--- !u!114 &6644232551082738471
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8616648825218986516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4, y: 4, z: 4}
-  m_Center: {x: 0, y: 2.5, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f217c00e859469db3aeb0249a6d115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
