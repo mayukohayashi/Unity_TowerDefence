@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8998100626500397230}
   - component: {fileID: 765536057908959904}
+  - component: {fileID: 8575497949010478248}
   m_Layer: 0
   m_Name: Enemy_Ram
   m_TagString: Untagged
@@ -129,4 +130,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  waitTime: 1
+  speed: 1
+--- !u!65 &8575497949010478248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616648825218986516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4, z: 4}
+  m_Center: {x: 0, y: 2.5, z: 0}
