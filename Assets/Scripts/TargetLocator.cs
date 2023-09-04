@@ -45,10 +45,20 @@ public class TargetLocator : MonoBehaviour
         float targetDistance = Vector3.Distance(transform.position, target.position);
 
         weapon.LookAt(target);
+
+        if (targetDistance < range)
+        {
+            Attack(true);
+        }
+        else
+        {
+            Attack(false);
+        }
     }
 
-    void Attack()
+    void Attack(bool isActive)
     {
-        e
+        var emissionModule = projectileParticles.emission;
+        emissionModule.enabled = isActive;
     }
 }

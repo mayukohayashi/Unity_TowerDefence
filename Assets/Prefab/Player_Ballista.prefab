@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7454936272976823302}
   - component: {fileID: 1194639977522687340}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5026,3 +5026,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 7580400089104365892}
+  projectileParticles: {fileID: 1194639977522687340}
+  range: 15
