@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class TargetLocator : MonoBehaviour
 {
-    [SerializeField] Transform weapon;
+    [SerializeField]
+    Transform weapon;
     Transform target;
 
     void Start()
     {
-        target = FindObjectOfType<EnemyMover>().transform;
+        target = FindObjectOfType<Enemy>().transform;
     }
 
     void Update()
@@ -20,7 +21,5 @@ public class TargetLocator : MonoBehaviour
     void AimWeapon()
     {
         weapon.LookAt(target);
-
     }
-
 }
